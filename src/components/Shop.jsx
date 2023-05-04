@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../assets/css/shop.css'
 import { shopData } from '../data/shopData'
 
-export const Shop = () => {
+const Shop = () => {
 
     const firstSlide = shopData.slice(0, 3);
     const [product, setProducts] = useState(firstSlide); 
@@ -58,3 +58,5 @@ export const Shop = () => {
     </section>
   )
 }
+
+export default Shop;
