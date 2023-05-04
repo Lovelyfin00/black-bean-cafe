@@ -4,7 +4,6 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 
-import '../assets/css/beans.css'
 import { NavButtonsData, beansData } from "../data/BeansData";
 import coffeemachine from '../assets/img/coffeemachineicon.webp';
 
@@ -72,7 +71,7 @@ const Beans = () => {
                     <button className={buyBtnColor}>Buy Now</button>
                 </div>
                 <div className="beans-img flex items-end">
-                    <img src={image} alt="kenyan bean" className='h-48 w-full object-cover md:h-full md:w-48' />
+                    <img src={image} alt="kenyan bean" className='h-48 w-full object-cover md:h-full' />
                 </div>
             </div>
             <div className="next-buttons">

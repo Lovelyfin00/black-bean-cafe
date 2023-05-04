@@ -1,4 +1,3 @@
-import '../assets/css/cafes.css'
 import { addressData } from '../data/CafeData'
 import { coffeeShopImages } from '../data/CafeData';
 

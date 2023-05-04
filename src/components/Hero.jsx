@@ -1,5 +1,3 @@
-import '../assets/css/hero.css'
-
 import heroVideo from '../assets/video/black-bean-hero-video.mp4';
 import coffeeShopImg from '../assets/img/coffe-shop-img.webp'
 import logo from '../assets/img/beanlogo.webp'
@@ -12,7 +10,7 @@ const Hero = () => {
         <video autoPlay muted loop id="heroVideo">
             <source src={heroVideo} type="video/mp4" />
         </video>
-        <div className="overlay flex items-center justify-center">
+        <div className="overlay flex item-center justify-center">
             <p className='name-title'>-- .- -.. . / -... -.-- / .-.. --- ...- . - .... / --- -- --- -.- .- .-. ---</p>
             <div className='flex items-center justify-center logo-div'>
                 <p className='logo-text leading-3 font-normal'>19</p>

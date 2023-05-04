@@ -4,7 +4,7 @@ import Beans from './components/Beans'
 import Shop from './components/Shop'
 import Cafes from './components/Cafes'
 
-import './index.css'
+import './output.css'
 
 function App() {
   return (

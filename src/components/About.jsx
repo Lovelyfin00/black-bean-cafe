@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import '../assets/css/about.css'
 import { aboutData } from '../data/AboutData'
 
 const About = () => {
