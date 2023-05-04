@@ -62,6 +62,7 @@ const Beans = () => {
 
   return (
     <section className="bean-margin">
+        <p className='name-title'>-- .- -.. . / -... -.-- / .-.. --- ...- . - .... / --- -- --- -.- .- .-. ---</p>
         <div id="beans-section" style={{backgroundImage: `url(${backgroundImg})`}} className='relative'>
             <div className='beans-content absolute flex justify-center items-center'>
                 <div className="beans-text">

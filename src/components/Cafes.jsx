@@ -35,6 +35,7 @@ const Cafes = () => {
 
   return (
     <section id='cafe-section'>
+        <p className='name-title'>-- .- -.. . / -... -.-- / .-.. --- ...- . - .... / --- -- --- -.- .- .-. ---</p>
         <div className="address-section text-center grid grid-cols-1  md:grid-cols-2 md:gap-14 lg:grid-cols-4">
             {
                 addressData.map(address => {

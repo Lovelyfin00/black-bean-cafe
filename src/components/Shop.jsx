@@ -23,6 +23,7 @@ const Shop = () => {
 
   return (
     <section className='shop-padding' id='shop-section'>
+        <p className='name-title'>-- .- -.. . / -... -.-- / .-.. --- ...- . - .... / --- -- --- -.- .- .-. ---</p>
         <div className='card-section-padding m-auto card-div grid grid-cols-1 gap-14 md:grid-cols-2 md:gap-14 lg:grid-cols-3'>
             {
                 product.map((productDetails) => {

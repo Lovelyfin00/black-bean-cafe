@@ -13,6 +13,7 @@ const Hero = () => {
             <source src={heroVideo} type="video/mp4" />
         </video>
         <div className="overlay flex items-center justify-center">
+            <p className='name-title'>-- .- -.. . / -... -.-- / .-.. --- ...- . - .... / --- -- --- -.- .- .-. ---</p>
             <div className='flex items-center justify-center logo-div'>
                 <p className='logo-text leading-3 font-normal'>19</p>
                 <img src={logo} alt="logo" className='mr-2 ml-2' />
