@@ -1,11 +1,9 @@
 import { useState } from 'react'
 
-import productImg1 from '../assets/img/product-1.webp'
-
 import '../assets/css/shop.css'
 import { shopData } from '../data/shopData'
 
-const Shop = () => {
+export const Shop = () => {
 
     const firstSlide = shopData.slice(0, 3);
     const [product, setProducts] = useState(firstSlide); 
@@ -60,4 +58,3 @@ const Shop = () => {
     </section>
   )
 }
-export default Shop
